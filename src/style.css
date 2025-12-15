@@ -24,6 +24,11 @@ h2 {
   font-size: 48px;
 }
 
+h3 {
+  font-size: 18px;
+  padding: 20px 0;
+}
+
 p {
   font-family: var(--body-font-family);
   font-weight: normal;
@@ -90,4 +95,20 @@ p {
     padding: 0;
     text-align: center;
   }
+}
+
+.about {
+  padding: 160px 20px;
+}
+
+.about-description {
+  padding: 0 60px;
+}
+
+.about h2 {
+  padding: 20px 0;
+}
+
+.about img {
+  border-radius: 12px;
 }
