@@ -25,31 +25,39 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="src/style.css" />
+    <meta
+      name="description"
+      content="Contact Nora Jeannine Aerni, a Frontend Developer based in Switzerland."
+    />
     <title>Contact</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="images/logo.png" alt="" class="d-none d-md-block logo" />
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            alt="Nora Logo"
+            class="d-none d-md-block logo"
+          />
           <img
             src="images/logo_small.jpg"
-            alt=""
+            alt="Nora Logo Small"
             class="d-block d-md-none logo"
           />
         </a>
         <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About me"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="My work"> Work</a>
+          </li>
           <li class="active">
-            <a href="/"> Home</a>
-          </li>
-          <li>
-            <a href="/about.html"> About</a>
-          </li>
-          <li>
-            <a href="/work.html"> Work</a>
-          </li>
-          <li>
-            <a href="/contact.html"> Contact</a>
+            <a href="/contact.html" title="Contact me"> Contact</a>
           </li>
         </ul>
       </nav>
@@ -64,20 +72,37 @@
           <p class="text-muted">Let's work together</p>
         </div>
         <div>
-          <a href="" class="btn btn-branding mt-3">Contact me</a>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Nora"
+            >Contact me</a
+          >
         </div>
       </div>
       <div class="d-flex justify-content-center mb-5">
-        <a href="mailto:nora@gmail.com" class="email-link">nora@gmail.com</a>
+        <a href="mailto:nora@gmail.com" class="email-link" title="Email Nora"
+          >nora@gmail.com</a
+        >
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href="https://www.instagram.com/nj_ora/" target="_blank"
+        <a
+          href="https://www.instagram.com/nj_ora/"
+          target="_blank"
+          title="Instagram Profile"
           ><i class="fa-brands fa-instagram"></i
         ></a>
-        <a href="https://github.com/njora09" target="_blank">
+        <a
+          href="https://github.com/njora09"
+          target="_blank"
+          title="GitHub Profile"
+        >
           <i class="fa-brands fa-github"></i
         ></a>
-        <a href="https://www.facebook.com/nora.aerni" target="_blank"
+        <a
+          href="https://www.facebook.com/nora.aerni"
+          target="_blank"
+          title="Facebook Profile"
           ><i class="fa-brands fa-facebook"></i
         ></a>
       </div>
